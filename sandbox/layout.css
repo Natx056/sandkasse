@@ -1,0 +1,24 @@
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (width > 800px){
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rudi{
+    grid-row: span 2;
+}
+.ragdoll{
+    grid-column: span 2;
+}
+.grid_1-1-new{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pictext{
+    order: -1;
+}
+}
